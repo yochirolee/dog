@@ -62,7 +62,6 @@
 	box-sizing: border-box;
 }
 
-
 a {
 	text-decoration: none;
 	width: 100%;
@@ -102,7 +101,7 @@ header {
 .logo {
 	font-family: var(--ff-source-sans-pro);
 	font-size: var(--fs-5);
-	color: var(--white);
+	color: var(--gray2);
 }
 .navbar,
 .navbar-top > .logo {
@@ -411,7 +410,7 @@ header {
 	background-color: var(--blue1);
 	background-image: url(./images/footer-bg.png);
 	padding: 4rem;
-    font-size: 1rem;;
+	font-size: 1rem;
 	color: white;
 	text-align: center;
 }
