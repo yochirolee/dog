@@ -68,7 +68,9 @@ a {
 li {
 	list-style: none;
 }
-
+h3 {
+	font-size: 1.5rem;
+}
 html {
 	font-family: "Poppins", sans-serif;
 	font-size: 10px;
@@ -188,7 +190,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: -10px 50px;
 	background-size: cover;
-    
+
 	border-radius: 12px;
 }
 
@@ -213,7 +215,7 @@ header {
 	text-align: center;
 	justify-content: center;
 	padding: 10px;
-    width: 160px;
+	width: 160px;
 }
 
 .btn i {
@@ -242,7 +244,6 @@ header {
 	min-height: 220px;
 	gap: 10px;
 	border-radius: 12px;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
 	scroll-snap-align: start;
 	transition: all 0.2s;
 }
@@ -310,3 +311,38 @@ header {
 }
 
 /*--------------------End Services Cards  ----------------*/
+
+
+/*--------------------Reviews Cards  ----------------*/
+
+.reviews{
+    display:flex;
+   
+    flex-direction: column;
+    margin: 2rem;
+}
+
+
+.review-card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    width: 100%;
+    margin:1rem 0rem;
+    border: 1px solid var(--shadow1);
+    padding: 1rem;
+}
+
+.review-card-title{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.review-card-img{
+    width:30%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: black;
+}
