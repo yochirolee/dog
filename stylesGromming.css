@@ -318,10 +318,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	margin: 2rem;
-	gap:1rem
+	gap: 1rem;
 }
-
-
 
 .review-card {
 	display: flex;
@@ -352,6 +350,53 @@ header {
 	color: var(--yellow);
 	width: 100%;
 	display: flex;
+}
+
+/*----------------Socials-------------------------*/
+
+.contact{
+	margin-bottom: 3rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0rem 3rem;
+}
+
+.contact h3{
+	margin:2rem 0rem
+}
+
+.contact-container{
+	display: flex;
+	flex-direction: row;
+	
+}
+.socials-list {
+	flex:1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 3rem;
+	
+}
+.fa{color:var(--blue1)}
+.in{color:var(--purple1)}
+.tw{color:var(--blue2)}
+
+.phone-address{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.3rem;
+	padding: 0rem 3rem;
+}
+
+
+.footer{
+	background-color: var(--blue1);
+	padding: 4rem;
+	height: 40px;
+	color: white;
+	text-align: center;
+	
 }
 
 @media (min-width: 992px) {
