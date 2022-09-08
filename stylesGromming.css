@@ -333,7 +333,7 @@ header {
 .review-img img {
 	border-radius: 50%;
 	max-height: 6rem;
-	margin: 2rem;
+	margin: 0rem 2rem;
 }
 
 .review-name {
