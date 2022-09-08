@@ -102,7 +102,7 @@ header {
 .logo {
 	font-family: var(--ff-source-sans-pro);
 	font-size: var(--fs-5);
-	color: var(--gray3);
+	color: var(--white);
 }
 .navbar,
 .navbar-top > .logo {
@@ -199,8 +199,8 @@ header {
 	width: 100%;
 	height: auto;
 	background-repeat: no-repeat;
-	background-position: 20px 0px;
-	background-size: contain;
+	background-position: -10px 50px;
+	background-size: cover;
 
 	border-radius: 12px;
 }
