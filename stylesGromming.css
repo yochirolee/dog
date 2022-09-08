@@ -383,18 +383,21 @@ header {
 	flex: 1;
 	display: flex;
 	flex-direction: row;
-	gap: 1;
-	justify-content: space-around;
+
+	justify-content: space-between;
 	font-size: 3rem;
 }
 .fa {
 	color: var(--blue1);
+	padding: 1rem;
 }
 .in {
 	color: var(--purple1);
+	padding: 1rem;
 }
 .tw {
 	color: var(--blue2);
+	padding: 1rem;
 }
 
 .phone-address {
@@ -402,7 +405,6 @@ header {
 	flex-direction: column;
 	font-size: 1.3rem;
 	padding: 0rem 3rem;
-	justify-content: center;
 	text-align: center;
 }
 
